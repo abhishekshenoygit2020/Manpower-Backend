@@ -18,7 +18,8 @@ app.use(baseRoute);
 app.listen(process.env.APP_PORT,()=>{
     console.log("server is running......" ,process.env.APP_PORT);
 });
-
+console.log("database is connected successfully....");
+console.log("sd is connected successfully....");
 
 // SELECT 
 //     m.month_num,
