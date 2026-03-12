@@ -10,7 +10,8 @@ const dealershipRouter=require("../Dealership/dealership.router");
 const categoryRouter=require("../Category/category.router");
 const userRouter=require("../User/user.router");
 const productRouter=require("../Products/product.router");
-const salesrepRouter = require("../Salesrep/salesrep.router")
+const salesrepRouter = require("../Salesrep/salesrep.router");
+const profileRouter = require("../Profile/profile.router");
 
 router.use("/api/auth",authRouter);
 router.use("/api/personalInformation",personalInformationRouter);
@@ -19,6 +20,7 @@ router.use("/api/category",categoryRouter);
 router.use("/api/user",userRouter);
 router.use("/api/product",productRouter);
 router.use("/api/salesrep", salesrepRouter);
+router.use("/api/profile", profileRouter);
 
 
 
